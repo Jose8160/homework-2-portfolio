@@ -1,0 +1,29 @@
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: #fff;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+#navbar h2 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+#navbar li a {
+  text-decoration: underline;
+  color: #fff;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+#navbar li a:hover {
+  background-color: #186f91;
+}
