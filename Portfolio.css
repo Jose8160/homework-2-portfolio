@@ -1,33 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Navbar */
-#navbar {
+nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: #333;
   color: #fff;
 }
 
-#navbar ul {
+nav ul {
   display: flex;
   list-style: none;
 }
 
-#navbar h1 a {
+nav h1 {
   color: #fff;
   text-decoration: none;
-  font-size: 2rem;
+  margin-left: 1rem;
 }
 
-#navbar li a {
-  text-decoration: underline;
+nav li a {
+  text-decoration: none;
   color: #fff;
-  padding: 1rem;
-  font-size: 1.3rem;
+  padding-right: 1rem;
+  /* font-size: 1.3rem; */
 }
 
-#navbar li a:hover {
-  background-color: #186f91;
+nav li a:hover {
+  background-color: #86df9c;
+  text-decoration: underline;
+}
+
+.banner {
+  background-color: plum;
+  background-size: cover;
+  background-position: center;
+  min-height: 25vh;
+  margin: 0;
 }
 
 main {
-  background-color: paleturquoise;
+  background-color: #86df9c;
+  padding: 1rem;
+}
+
+.page-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.page-section > h2 {
+  flex-basis: 20%;
+  text-align: right;
+  padding-right: 1rem;
+  border-right: 3px solid gray;
+}
+
+.page-section > div {
+  flex-basis: 78%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  border: 3px solid gray;
+  background-color: green;
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50%-1em);
+  display: flex;
+  align-items: flex-end;
 }
