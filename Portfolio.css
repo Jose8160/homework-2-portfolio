@@ -11,7 +11,7 @@
   list-style: none;
 }
 
-#navbar h2 a {
+#navbar h1 a {
   color: #fff;
   text-decoration: none;
   font-size: 2rem;
@@ -26,4 +26,8 @@
 
 #navbar li a:hover {
   background-color: #186f91;
+}
+
+main {
+  background-color: paleturquoise;
 }
