@@ -31,7 +31,6 @@ nav li a {
   text-decoration: none;
   color: #fff;
   padding-right: 1rem;
-  /* font-size: 1.3rem; */
 }
 
 nav li a:hover {
@@ -40,16 +39,23 @@ nav li a:hover {
 }
 
 .banner {
-  background-color: plum;
+  background-color: #86df9c;
   background-size: cover;
   background-position: center;
   min-height: 25vh;
   margin: 0;
+  background-image: url(images/green\ shapes.jpg);
 }
 
 main {
-  background-color: #86df9c;
+  background-color: #fff;
   padding: 1rem;
+}
+
+.portfolio-pic {
+  width: 100px;
+  position: relative;
+  right: 600px;
 }
 
 .page-section {
@@ -79,10 +85,19 @@ main {
 
 .flex-item {
   border: 3px solid gray;
-  background-color: green;
+  background-color: skyblue;
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50%-1em);
   display: flex;
   align-items: flex-end;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 1000px;
 }
