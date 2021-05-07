@@ -49,7 +49,7 @@ nav li a:hover {
 }
 
 main {
-  background-color: #fff;
+  background-color: lightgray;
   padding: 1rem;
 }
 
@@ -111,7 +111,6 @@ main {
 }
 
 .one {
-  
   background-image: url("images/projectscreenshot\ copy.png");
   background-size: contain;
   background-position: center;

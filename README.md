@@ -6,11 +6,14 @@
   It was intresting to see how I was able to create a Portfolio but also to see where I need Improvement.
 
 - Why did you build this project?  
-  To build a Portfolio 
+  To build a Portfolio
 
 - What problem does it solve?
-  It helps create job oppertunity 
+  It helps create job oppertunity
 
 - What did you learn?
   A better understanding what a portfolio requires.
-  
+
+[Link to deployable application](https://jose8160.github.io/homework-2-portfolio/)
+
+![Screenshot](portfolioscreenshot.png)
