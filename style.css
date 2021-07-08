@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background: lightgray;
 }
 
 /* Navbar */
@@ -35,17 +36,27 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #86df9c;
+  background-color: lightskyblue;
   text-decoration: underline;
 }
 
 .banner {
-  background-color: #86df9c;
+  background-color: white;
   background-size: cover;
   background-position: center;
   min-height: 25vh;
   margin: 0;
-  background-image: url(images/green\ shapes.jpg);
+  background-image: url(images/blue.jpeg);
+}
+
+.colum-align {
+  text-align: end;
+}
+
+@media (max-width: 760px) {
+  .colum-align {
+    text-align: start;
+  }
 }
 
 main {
@@ -73,7 +84,7 @@ main {
   flex-basis: 20%;
   text-align: right;
   padding-right: 1rem;
-  border-right: 3px solid gray;
+  border-right: 3px solid skyblue;
 }
 
 .page-section > div {
@@ -99,10 +110,10 @@ main {
   padding-bottom: 20px;
 }
 
-.flex-item:first-child {
-  min-height: 400px;
+/* .flex-item:first-child {
+  min-height: 300px;
   flex-basis: 100%;
-}
+} */
 
 .flex-item > div > a {
   display: flex;
@@ -115,10 +126,41 @@ main {
   background-size: contain;
   background-position: center;
 }
+.two {
+  background-image: url("images/eventplan.png");
+  background-size: contain;
+  background-position: center;
+}
+.three {
+  background-image: url("images/workschedule.png");
+  background-size: contain;
+  background-position: center;
+}
+
+.four {
+  background-image: url("images/PasswordGenerator\ copy.png");
+  background-size: contain;
+  background-position: center;
+}
+
+.five {
+  background-image: url("images/employeetracker.png");
+  background-size: contain;
+  background-position: center;
+}
+
+.transparent-bg {
+  background-color: aqua;
+  opacity: 0.75;
+}
+
+.transparent-bg h3 {
+  opacity: 1;
+}
 
 footer {
-  background-color: black;
-  color: #fff;
+  background-color: whitesmoke;
+  color: black;
   text-align: center;
   position: fixed;
   bottom: 0;
